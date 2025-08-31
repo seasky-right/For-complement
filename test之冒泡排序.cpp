@@ -1,9 +1,9 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 int main(){
 	int arr[10] = { 5,2,1,4,3,9,6,7,8,0 };
 
-	cout << "排序前的数组为：" << endl;
+	cout << "鎺掑簭鍓嶇殑鏁扮粍涓猴細" << endl;
 	for (int i = 0; i < 10; i++) {
 		cout << arr[i] << " ";
 	}
@@ -20,7 +20,7 @@ int main(){
 		}
 	}
 
-	cout << "排序后的数组为：" << endl;
+	cout << "鎺掑簭鍚庣殑鏁扮粍涓猴細" << endl;
 	for (int l = 0; l < 10; l++) {
 		cout << arr[l] << " ";
 	}
@@ -28,4 +28,4 @@ int main(){
 	system("pause");
 	return 0;
 }
-*/
+
