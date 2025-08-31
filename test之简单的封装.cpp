@@ -2,7 +2,7 @@
 using namespace std;
 
 class Student {
-公共:
+public:
 	string name;
 	int number;
 };
@@ -24,3 +24,4 @@ int main() {
 	return 0;
 
 }
+
