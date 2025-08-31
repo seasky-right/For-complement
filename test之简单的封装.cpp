@@ -1,8 +1,8 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 class Student {
-public:
+å…¬å…±:
 	string name;
 	int number;
 };
@@ -10,16 +10,17 @@ public:
 int main() {
 	Student stu[3];
 	for (int i = 0; i < 3; i++) {
-		cout << "ÇëÊäÈëµÚ" << i + 1 << "¸öÑ§ÉúµÄÐÕÃû£º";
+		cout << "è¯·è¾“å…¥ç¬¬" << i + 1 << "ä¸ªå­¦ç”Ÿçš„å§“åï¼š";
 		cin >> stu[i].name;
-		cout << "ÇëÊäÈëµÚ" << i + 1 << "¸öÑ§ÉúµÄÑ§ºÅ£º";
+		cout << "è¯·è¾“å…¥ç¬¬" << i + 1 << "ä¸ªå­¦ç”Ÿçš„å­¦å·ï¼š";
 		cin >> stu[i].number;
 	}
-	cout << "Ñ§ÉúÐÅÏ¢ÈçÏÂ£º" << endl;
+	cout << "å­¦ç”Ÿä¿¡æ¯å¦‚ä¸‹ï¼š" << endl;
 	for (int i = 0; i < 3; i++) {
-		cout << "ÐÕÃû£º" << stu[i].name << ", Ñ§ºÅ£º" << stu[i].number << endl;
+		cout << "å§“åï¼š" << stu[i].name << ", å­¦å·ï¼š" << stu[i].number << endl;
 	}
 
 	system("pause");
 	return 0;
-}*/
+
+}
